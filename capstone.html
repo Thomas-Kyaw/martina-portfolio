@@ -29,7 +29,7 @@
 
 <body class="capstone-page">
 
-<header id="header" class="header d-flex align-items-center sticky-top">
+<header id="header" class="header d-flex align-items-center sticky-top" style="background-color: #e8e8cb;">
   <div class="container-fluid d-flex align-items-center justify-content-between">
     <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
       <img src="assets/img/logo.png" alt="">
@@ -42,10 +42,10 @@
         <li><a href="about.html">About</a></li>
         <li class="dropdown"><a href="gallery.html"><span>Gallery</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
-            <li><a href="gallery.html">People</a></li>
-            <li><a href="gallery.html">Animals</a></li>
-            <li><a href="gallery.html">Architecture</a></li>
-            <li><a href="gallery.html">Videos</a></li>
+            <li><a href="gallery.html?category=people">People</a></li>
+            <li><a href="gallery.html?category=animals">Animals</a></li>
+            <li><a href="gallery.html?category=architecture">Architecture</a></li>
+            <li><a href="gallery.html?category=videos">Videos</a></li>
           </ul>
         </li>
         <li><a href="capstone.html" class="active">Capstone</a></li>
@@ -54,10 +54,7 @@
     </nav>
 
     <div class="header-social-links">
-      <a href="#"><i class="bi bi-twitter-x"></i></a>
-      <a href="#"><i class="bi bi-facebook"></i></a>
-      <a href="#"><i class="bi bi-instagram"></i></a>
-      <a href="#"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.instagram.com/martinwitha?utm_source=ig_web_button_share_sheet&igsh=MTlzMWJtaTZ6YTAxeQ=="  target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
     </div>
   </div>
 </header>
@@ -105,94 +102,75 @@
     </div>
   </section>
 
-  <!-- Gallery Section Placeholder -->
-  <section class="section bg-black text-white text-center">
+  <!-- Gallery Section -->
+  <section class="section text-white" style="background-color: #e8e8cb;">
     <div class="container">
-      <h2 class="mb-4">Project Snapshots</h2>
-      <p class="mb-5">Photos or stills from the motion graphics, gallery visits, and design progress can be showcased here.</p>
-      <div class="row g-4">
-        <div class="col-6 col-md-4" style="height: 200px;">
-          <div class="bg-white bg-opacity-10 h-100 d-flex align-items-center justify-content-center rounded">Image 1</div>
-        </div>
-        <div class="col-6 col-md-4" style="height: 200px;">
-          <div class="bg-white bg-opacity-10 h-100 d-flex align-items-center justify-content-center rounded">Image 2</div>
-        </div>
-        <div class="col-6 col-md-4" style="height: 200px;">
-          <div class="bg-white bg-opacity-10 h-100 d-flex align-items-center justify-content-center rounded">Image 3</div>
-        </div>
-        <div class="col-6 col-md-4" style="height: 200px;">
-          <div class="bg-white bg-opacity-10 h-100 d-flex align-items-center justify-content-center rounded">Image 4</div>
-        </div>
-        <div class="col-6 col-md-4" style="height: 200px;">
-          <div class="bg-white bg-opacity-10 h-100 d-flex align-items-center justify-content-center rounded">Image 5</div>
-        </div>
-        <div class="col-6 col-md-4" style="height: 200px;">
-          <div class="bg-white bg-opacity-10 h-100 d-flex align-items-center justify-content-center rounded">Image 6</div>
-        </div>
-      </div>
+      <h2 class="mb-4 text-center text-dark">Project Snapshots</h2>
+      <p class="mb-5 text-center text-dark">A curated selection from our motion graphics, gallery visits, and design process.</p>
+      <div class="row g-4" id="project-gallery"></div>
     </div>
   </section>
 
-  <!-- Weekly Log Section -->
-  <section class="section" style="background-color:#f7f7f7;">
-    <div class="container">
-      <h2 class="text-center mb-5">Weekly Logs</h2>
-      <div class="row">
-        <div class="col-12 mb-4">
-          <h5>Week 1</h5>
-          <p>Started the project after receiving the brief from Illustrato Studio... user journey map.</p>
-        </div>
-        <div class="col-12 mb-4">
-          <h5>Week 2</h5>
-          <p>Presented pitches, formed groups, created a skill map, and developed concepts.</p>
-        </div>
-        <div class="col-12 mb-4">
-          <h5>Week 3</h5>
-          <p>Shared ideas, chose a concept after feedback, pitched, and prepared for refinement.</p>
-        </div>
-        <div class="col-12 mb-4">
-          <h5>Week 4</h5>
-          <p>Made empathy maps, personas, and tried interactive projection experiments.</p>
-        </div>
-        <div class="col-12 mb-4">
-          <h5>Week 5</h5>
-          <p>Visited Tun Jugah Gallery, deep research, established curator communication.</p>
-        </div>
-        <div class="col-12 mb-4">
-          <h5>Week 6</h5>
-          <p>Tested projection with TouchDesigner, revised visuals, explored alt ideas.</p>
-        </div>
-        <div class="col-12 mb-4">
-          <h5>Semester Break</h5>
-          <p>Visited the gallery, consulted curator, continued research on 3rd Pua Kumbu.</p>
-        </div>
-        <div class="col-12 mb-4">
-          <h5>Week 7</h5>
-          <p>Prototype testing, software change, created video for 1st Pua Kumbu.</p>
-        </div>
-        <div class="col-12 mb-4">
-          <h5>Week 8</h5>
-          <p>User testing and feedback, added better guidance, messaged curator for missing info.</p>
-        </div>
-        <div class="col-12 mb-4">
-          <h5>Week 9</h5>
-          <p>Refined info page, presented showcase, more research for 3rd Pua Kumbu.</p>
-        </div>
-        <div class="col-12 mb-4">
-          <h5>Week 10</h5>
-          <p>Updated 1st and 3rd Pua Kumbu info based on new insights from curator.</p>
-        </div>
-        <div class="col-12 mb-4">
-          <h5>Week 11</h5>
-          <p>Finalized AE video for 1st Pua Kumbu, began 3rd Pua Kumbu animation.</p>
-        </div>
-        <div class="col-12 mb-4">
-          <h5>Week 12</h5>
-          <p>Moved info to XD, improved UX for interaction, suggested presentation refinements.</p>
-        </div>
+<!-- Weekly Log Section -->
+<section class="section" style="background-color: var(--background-color);">
+  <div class="container">
+    <h2 class="text-center mb-5">Weekly Logs</h2>
+    <div class="row">
+      <div class="col-12 mb-4">
+        <h5>Week 1</h5>
+        <p>Started the project after receiving the brief from Illustrato Studio. Researched interactive tech (AR/VR, projection mapping, etc.) and brainstormed concepts to showcase Sarawak’s nature. Worked on a user journey map with my group, which gave me inspiration and direction for my individual pitch.</p>
+      </div>
+      <div class="col-12 mb-4">
+        <h5>Week 2</h5>
+        <p>In Week 2, we presented our individual pitches and formed groups based on shared interests. I also created a skill map, which helped me identify areas to improve. From there, I developed three concept ideas for the project.</p>
+      </div>
+      <div class="col-12 mb-4">
+        <h5>Week 3</h5>
+        <p>On Tuesday, my group discussed pitch ideas, and I shared several concepts I had prepared. After getting feedback from our lecturer, we chose the most feasible one and presented it on Thursday. Although the pitch went well, we received helpful feedback and plan to refine our idea through further research. I do the photo and videos thing tomorrow.</p>
+      </div>
+      <div class="col-12 mb-4">
+        <h5>Week 4</h5>
+        <p>This week, we focused on understanding our audience by creating an empathy map and a user persona to guide our exhibition design. We also finalized our design criteria using the must/should/could/won’t method, which helped structure our planning. Mr. Greg’s presentation on Pua Kumbu inspired us to explore deeper cultural integration in our work. Lastly, we experimented with a laser projector and TouchDesigner, which sparked new ideas for interactive visuals.</p>
+      </div>
+      <div class="col-12 mb-4">
+        <h5>Week 5</h5>
+        <p>This week, we visited the Tun Jugah Foundation Gallery and gained deeper insight into the history, symbolism, and craftsmanship of Pua Kumbu. The experience, along with access to the gallery’s library, enriched our research and helped us identify meaningful designs for our project. We also completed our group progress presentation and received helpful feedback from Mr. Greg. Most importantly, we established communication with a gallery curator, who will now guide us to ensure our work remains culturally respectful and authentic.</p>
+      </div>
+      <div class="col-12 mb-4">
+        <h5>Week 6</h5>
+        <p>We ran our first TouchDesigner test with the laser projector, and it responded well to hand movements via webcam tracking. In the second test, we projected onto our chosen cloth, but the visuals lacked clarity, sharpness, and impact. Based on the results, we decided to switch to a different display method. I also revised the design for the 1st Pua Kumbu and explored a new visual approach inspired by a reference video, but it didn’t work out—so we agreed to stick with the original concept.</p>
+      </div>
+      <div class="col-12 mb-4">
+        <h5>Semester Break</h5>
+        <p>We visited the Tun Jugah Foundation Gallery to consult Ms. Janet and ensure our work aligns with the cultural facts of Pua Kumbu. We also began working on the homepage and other parts of the project. I continued researching the 3rd Pua Kumbu and found Iban traditional music that features Pua Kumbu in their dance.</p>
+      </div>
+      <div class="col-12 mb-4">
+        <h5>Week 7</h5>
+        <p>This week, we tested our prototype again and things were going pretty well until we reached the part that was supposed to wow the visitors. Our motion graphics video, which was the centrepiece for creating that “wow” moment, didn’t work as planned. After discussing it with the team and our tutor, we were advised to switch to a different software to get things moving forward. It was a bit of a setback, but also a necessary one as we want the final experience to feel impressive and seamless. After that, I also did the informations for the first Pua Kumbu into a video in After effects.</p>
+      </div>
+      <div class="col-12 mb-4">
+        <h5>Week 8</h5>
+        <p>Back at it again this week, we tested the updated version of our project on the screen to see how it looked in its intended format. Alongside that, we received valuable feedback from our class client. One big point was making the transitions between information smoother, so users can absorb the content more easily. Another was about guiding the visitors on how do they know what to do when they walk up to our showcase? We’ll need to include some clear instructions or cues to help them engage with the experience right from the start. As I was about to proceed to do the 3rd Pua Kumbu, I was having a problem of not knowing the information of the pua kumbu as it was not available inside the book that we were referring to and there is no information online as well. Hence, I had to message the curator of the Tun Jugah Foundation on what are the information about the 3rd Pua Kumbu.</p>
+      </div>
+      <div class="col-12 mb-4">
+        <h5>Week 9</h5>
+        <p>This week, I refined the info page for the first Pua Kumbu ahead of our Beyond Foundation showcase, focusing on its symbolism and story. I ran into issues accessing the Adobe XD prototype, which made it difficult to assist with design work despite trying several fixes. On Wednesday, we presented our project to students and lecturers, gaining valuable feedback that led to a few immediate adjustments. I’ve also started researching the third Pua Kumbu to better understand its history and meaning. We’re planning another visit to the Tun Jugah Foundation Gallery on Friday to verify our content and ensure cultural accuracy.</p>
+      </div>
+      <div class="col-12 mb-4">
+        <h5>Week 10</h5>
+        <p>I reached out to the curator for more insights on the symbolic meanings and motifs in Pua Kumbu textiles. Based on the feedback, I need to revise the info for the first Pua Kumbu and update the third one with more accurate, culturally grounded descriptions.</p>
+      </div>
+      <div class="col-12 mb-4">
+        <h5>Week 11</h5>
+        <p>I’ve added the missing information for the first Pua Kumbu into my After Effects composition, ensuring it aligns with its cultural and symbolic meanings. This updated version will be part of the final project. Next, I’ll begin designing the motion video for the third Pua Kumbu using the verified info from the curator.</p>
+      </div>
+      <div class="col-12 mb-4">
+        <h5>Week 12</h5>
+        <p>Due to After Effects’ limitations, I moved the detailed Pua Kumbu info into Adobe XD to better manage the large amount of content split among our team. During Thursday’s presentation with clients and lecturers, I supported my team by suggesting improvements like clearer user instructions and added context to boost engagement. These changes helped enhance both the clarity and educational value of our project.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
 </main>
 
@@ -200,10 +178,7 @@
   <div class="container text-center">
     <p>© <strong class="sitename">MartinWithA</strong>. All Rights Reserved</p>
     <div class="social-links d-flex justify-content-center">
-      <a href="#"><i class="bi bi-twitter-x"></i></a>
-      <a href="#"><i class="bi bi-facebook"></i></a>
-      <a href="#"><i class="bi bi-instagram"></i></a>
-      <a href="#"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.instagram.com/martinwitha?utm_source=ig_web_button_share_sheet&igsh=MTlzMWJtaTZ6YTAxeQ=="  target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
     </div>
   </div>
 </footer>
@@ -211,11 +186,77 @@
 <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 <div id="preloader"><div class="line"></div></div>
 
+<!-- Scripts -->
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/aos/aos.js"></script>
 <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
 <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/photos.js"></script>
 <script src="assets/js/main.js"></script>
+
+<!-- Dynamic Gallery Script -->
+<style>
+  #project-gallery .gallery-card {
+    height: 220px;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #ffffff10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #project-gallery img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  #project-gallery iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+</style>
+
+<script>
+  const selectedVideos = [
+    "https://www.youtube.com/embed/SoB3sdo8dQQ",
+    "https://www.youtube.com/embed/D-MnCmUR21Q",
+    "https://www.youtube.com/embed/yFxg2sxuBds"
+  ];
+
+  const gallery = document.getElementById("project-gallery");
+
+  // Load 3 images from architecture
+  photoData.architecture.slice(0, 3).forEach((img) => {
+    const div = document.createElement("div");
+    div.className = "col-6 col-md-4";
+    div.innerHTML = `
+      <div class="gallery-card">
+        <img src="assets/img/architecture/${img.filename}" alt="">
+      </div>
+    `;
+    gallery.appendChild(div);
+  });
+
+  // Add 3 videos
+  selectedVideos.forEach((url) => {
+    const videoId = url.split("/embed/")[1];
+    const div = document.createElement("div");
+    div.className = "col-6 col-md-4";
+    div.innerHTML = `
+      <div class="gallery-card">
+        <iframe 
+          src="${url}?autoplay=1&loop=1&playlist=${videoId}&controls=0&mute=1&modestbranding=1&rel=0&playsinline=1" 
+          allow="autoplay; encrypted-media">
+        </iframe>
+      </div>
+    `;
+    gallery.appendChild(div);
+  });
+</script>
 
 </body>
 </html>
