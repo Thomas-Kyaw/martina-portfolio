@@ -855,6 +855,9 @@ section,
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
+#gallery {
+  background-color: #F5F5DC;
+}
 .gallery .gallery-item {
   position: relative;
   overflow: hidden;
@@ -906,13 +909,20 @@ section,
   transform: scale(1.1);
 }
 
-.glightbox-clean .gslide-description {
-  background: #272727;
+/* Make the GLightbox background match your theme */
+.glightbox-container {
+  background: #F5F5DC !important;
 }
 
+/* Already good but re-added for clarity */
 .glightbox-clean .gslide-title {
-  color: rgba(255, 255, 255, 0.8);
-  margin: 0;
+  color: #BF0404;
+  font-weight: bold;
+}
+
+.glightbox-clean .gslide-description {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
 }
 
 .photo-grid {
