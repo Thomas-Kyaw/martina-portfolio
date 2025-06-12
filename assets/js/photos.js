@@ -94,7 +94,7 @@ const photoData = {
     },
     {
         filename: "animal-3.jpg",
-        title: "Beneath the Green Canop",
+        title: "Beneath the Green Canopy",
         caption: "Snack time in horse paradise."
     },
     {
